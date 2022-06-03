@@ -1,0 +1,18 @@
+native func string.Length(string);
+native func string.Match(string, regex);
+native func string.Concat(first, second);
+native func string.Contains(string, sequence);
+native func string.Trim(string);
+native func string.ToUpperCase(string);
+native func string.ToLowerCase(string);
+native func string.StartWith(string, sequence);
+native func string.EndWith(string, sequence);
+native func string.IndexOf(string, sequence);
+native func string.LastIndexOf(string, sequence);
+native func string.ReplaceFirst(string, regex, replacement);
+native func string.ReplaceAll(string, regex, replacement);
+native func string.CharAt(string, index);
+native func string.Substring(string, start, end);
+native func string.IsEmpty(string);
+native func string.Split(string, regex);
+native func string.CompareTo(first, second);

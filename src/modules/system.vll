@@ -1,0 +1,7 @@
+native func system.winTerminal();
+
+native func system.osName();
+
+native func system.osEnvVar(program);
+
+native func system.osArch();
